@@ -1,5 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import {NgxImagesOptionsSelectorModule} from '../../projects/ngx-images-options-selector/src/lib/ngx-images-options-selector.module';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
@@ -7,6 +8,7 @@ describe('AppComponent', () => {
       declarations: [
         AppComponent
       ],
+      imports: [NgxImagesOptionsSelectorModule]
     }).compileComponents();
   });
 
